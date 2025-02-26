@@ -1,0 +1,79 @@
+/* Variáveis CSS para as cores */
+:root {
+    --cor-principal: #780000;  /* Vermelho escuro */
+    --cor-secundaria: #C1121F; /* Vermelho */
+    --cor-contraste: #003049;  /* Azul escuro */
+    --cor-clara: #FDF0D5;      /* Bege */
+    --cor-azul-claro: #669BBC; /* Azul claro */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: var(--cor-clara);
+}
+
+header {
+  background-color: var(--cor-principal);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  color: var(--cor-principal);
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+}
+
+footer {
+  background-color: var(--cor-contraste);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.botao {
+    width: 120px;
+    height: 50px;
+    background-color: var(--cor-secundaria);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: var(--cor-azul-claro);
+}
+
+/* Estilo das imagens */
+img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 45%;
+}
