@@ -1,79 +1,70 @@
-/* Variáveis CSS para as cores */
+/* Definindo as variáveis de cores */
 :root {
     --cor-principal: #780000;  /* Vermelho escuro */
     --cor-secundaria: #C1121F; /* Vermelho */
-    --cor-contraste: #003049;  /* Azul escuro */
     --cor-clara: #FDF0D5;      /* Bege */
+    --cor-contraste: #003049;  /* Azul escuro */
     --cor-azul-claro: #669BBC; /* Azul claro */
-}
-
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: var(--cor-clara);
-}
-
-header {
-  background-color: var(--cor-principal);
-  color: white;
-  text-align: center;
-  padding: 1rem;
-}
-
-h1, h2, h3 {
-  color: var(--cor-principal);
-}
-
-h2 {
-  margin-top: 20px;
-}
-
-section {
-  padding: 20px;
-  margin: 10px;
-}
-
-footer {
-  background-color: var(--cor-contraste);
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.botao {
-    width: 120px;
-    height: 50px;
-    background-color: var(--cor-secundaria);
-    border: none;
-    border-radius: 10px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--cor-clara);
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: var(--cor-principal);
     color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.botao:hover {
-    background-color: var(--cor-azul-claro);
-}
-
-/* Estilo das imagens */
-img {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  h2 {
+    color: var(--cor-principal);
+  }
+  
+  h3 {
+    color: var(--cor-secundaria);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: var(--cor-contraste);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  img {
     width: 100%;
     height: auto;
-    margin: 20px 0;
-}
-
-.image-container {
+    margin: 10px 0;
+  }
+  
+  .image-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 20px;
-}
-
-.image-container img {
+  }
+  
+  .image-container img {
     width: 45%;
-}
+    margin: 10px;
+  }
+  
