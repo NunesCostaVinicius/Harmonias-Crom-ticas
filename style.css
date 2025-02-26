@@ -5,10 +5,10 @@
   box-sizing: border-box;
 }
 
-/* Definindo a fonte base */
+/* Definindo o fundo com gradiente suave e cores mais suaves */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f7fb;
+  background: linear-gradient(to right, #B2D8B2, #E6D9D1, #F2B8A0, #D0D9E0, #C9A7E8, #C4D9E9); /* Gradiente suave e menos vibrante */
   color: #333;
   line-height: 1.6;
   padding: 20px;
